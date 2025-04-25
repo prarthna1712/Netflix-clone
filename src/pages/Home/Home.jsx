@@ -1,6 +1,6 @@
 import React from 'react'
-
-const App = () => {
+import './Home.css'
+const Home = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Home
