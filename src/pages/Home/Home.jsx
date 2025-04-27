@@ -22,6 +22,12 @@ const Home = () => {
         <Titlecarts/>
         </div>
         </div>
+        <div className="more-carts">
+          <Titlecarts title={"Blockbuster Movies"}/>
+          <Titlecarts title={"Only on Netflix"}/>
+          <Titlecarts title={"Upcoming"}/>
+          <Titlecarts title={"Top Pics for You"}/>
+        </div>
     </div>
   )
 }
