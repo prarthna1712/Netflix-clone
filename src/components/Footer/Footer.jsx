@@ -14,6 +14,20 @@ const Footer = () => {
         <img src={instagram} alt=''/>
         <img src={facebook} alt=''/>
       </div>
+      <ul>
+        <li>Audio Description</li>
+        <li>Help Center</li>
+        <li>Gift cards</li>
+        <li>Media center</li>
+        <li>Investor Relations</li>
+        <li>Jobs</li>
+        <li>Terms of Use</li>
+        <li>privacy</li>
+        <li>Legacy Notices</li>
+        <li>Cookies Preferences</li>
+        <li>Corporate Information</li>
+        <li>Contact Us</li>
+      </ul>
     </div>
   )
 }
