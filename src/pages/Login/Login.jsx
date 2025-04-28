@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Login = () => {
 
-  const[signSate, setSignSet] = useState("Sign In")
+  const[signSate, setSignState] = useState("Sign In")
 
   return (
     <div className='login'>
@@ -25,9 +25,9 @@ const Login = () => {
           </div>
         </form>
         <div className="form-switch">
-          {signSate==="Sign In"?<p>New to Netflix? 
-            <span>Sign Up Now</span></p>: 
-            <p>Already have Account? <span>Sign In Now</span></p>}
+          {signSate==="Sign In"?
+          <p>New to Netflix?<span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>: 
+          <p>Already have Account? <span onClick={()=>{setSignState("Sign In")}}>Sign In Now</span></p>}
           
          
         </div>
