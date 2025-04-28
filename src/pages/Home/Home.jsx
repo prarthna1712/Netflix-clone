@@ -24,10 +24,10 @@ const Home = () => {
         </div>
         </div>
         <div className="more-carts">
-          <Titlecarts title={"Blockbuster Movies"}/>
-          <Titlecarts title={"Only on Netflix"}/>
-          <Titlecarts title={"Upcoming"}/>
-          <Titlecarts title={"Top Pics for You"}/>
+          <Titlecarts title={"Blockbuster Movies"} category={"top_rated"}/>
+          <Titlecarts title={"Only on Netflix"} category={"popular"}/>
+          <Titlecarts title={"Upcoming"} category={"upcoming"}/>
+          <Titlecarts title={"Top Pics for You"} category={"now_playing"}/>
         </div>
         <Footer/>
     </div>
