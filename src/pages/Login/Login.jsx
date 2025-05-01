@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
-import {login, signup} from '../../Firebase/firebase'
+import {login, signup} from '../../firebase'
 
 const Login = () => {
 
-  const[signSate, setSignState] = useState("Sign In")
+  const[signState, setSignState] = useState("Sign In")
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const userauth = async(event)=>{
+  const userauth = async (event)=>{
     event.preventDefault()
-    if(signSate === 'Sign In'){
+    if(signState === 'Sign In'){
       await login(email, password);
     }
     else{
@@ -24,7 +24,7 @@ const Login = () => {
     <div className='login'>
       <img src={logo} className='login-logo' alt=''/>
       <div className="login-form">
-        <h1>{signSate}</h1>
+        <h1>{signState}</h1>
         <form>
           {signSate==="Sign Up"?
           <input value={name} onChange={(e)=>{setName(e.target.value)}} type='text' placeholder='Your name'/>:<></>}
