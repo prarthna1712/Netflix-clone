@@ -26,11 +26,11 @@ const Login = () => {
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
-          {signSate==="Sign Up"?
+          {signState==="Sign Up"?
           <input value={name} onChange={(e)=>{setName(e.target.value)}} type='text' placeholder='Your name'/>:<></>}
           <input value={email} onChange={(e)=>{setEmail(e.target.value)}} type='email' placeholder='Email'/>
           <input value={password} onChange={(e)=>{setPassword(e.target.value)}} type='password' placeholder='Password'/>
-          <button onClick={userauth} type='submit'>{signSate}</button>
+          <button onClick={userauth} type='submit'>{signState}</button>
           <div className="form-help">
             <div className="remember">
               <input type='checkbox'/>
@@ -40,7 +40,7 @@ const Login = () => {
           </div>
         </form>
         <div className="form-switch">
-          {signSate==="Sign In"?
+          {signState==="Sign In"?
           <p>New to Netflix?<span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>: 
           <p>Already have Account? <span onClick={()=>{setSignState("Sign In")}}>Sign In Now</span></p>}
           
