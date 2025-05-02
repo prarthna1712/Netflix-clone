@@ -180,7 +180,7 @@ Here are some screenshots showcasing different parts of the Netflix Clone:
 
 ### 📄 Sign Up
 
-![Sign Up](.public/screenshots/Signup.png)
+![Sign Up](./public/screenshots/Signup.png)
 
 ### Footer
 
