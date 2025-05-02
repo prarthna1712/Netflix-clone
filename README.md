@@ -1,12 +1,48 @@
-# React + Vite
+# Netflix Clone Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Netflix Clone built using **React** and **Vite**, designed to replicate key features of the Netflix UI. It includes user authentication via **Firebase**, navigation with **React Router**, and dynamic content rendering using the **TMDB (The Movie Database)** API. The project is structured for scalability and modern development with a fast dev server powered by Vite.
 
-Currently, two official plugins are available:
+## Key Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React.js (via Vite)
+- **Routing**: React Router DOM
+- **Authentication**: Firebase
+- **Notifications**: React Toastify
+- **Hooks**: React Firebase Hooks
+- **Build Tool**: Vite
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. [Getting Started](#getting-started)
+2. [Project Structure](#project-structure)
+3. [Prerequisites](#prerequisites)
+4. [Installation](#installation)
+5. [Environment Setup](#environment-setup)
+6. [Running the Application](#running-the-application)
+7. [Features](#features)
+8. [Screenshots](#screenshots)
+9. [Contributing](#contributing)
+
+---
+
+## Getting Started
+
+To get this Netflix Clone running locally, follow the setup steps below for installing dependencies and configuring Firebase + TMDB.
+
+---
+
+## Project Structure
+
+```plaintext
+project-root/
+├── public/                  # Static assets
+├── src/
+│   ├── components/          # Reusable React components
+│   ├── pages/               # Application pages like Home, Login
+│   ├── firebase.js          # Firebase configuration
+│   └── main.jsx             # React app entry point
+├── index.html               # HTML template used by Vite
+├── package.json             # Project metadata and scripts
+├── vite.config.js           # Vite configuration
+└── .env                     # Environment variables (excluded from Git)
+```
