@@ -178,7 +178,7 @@ Here are some screenshots showcasing different parts of the Netflix Clone:
 
 ![Login Page](./public/screenshots/Login.png)
 
-### Sign Up
+### 📄 Sign Up
 
 ![Sign Up](./public/screenshots/Sign-up.png)
 
