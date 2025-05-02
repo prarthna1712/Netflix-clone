@@ -49,7 +49,7 @@ project-root/
 
 ---
 
-## 🔧 Prerequisites
+## Prerequisites
 
 Before you begin, ensure the following tools and accounts are set up on your system:
 
