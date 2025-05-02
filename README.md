@@ -133,7 +133,7 @@ http://localhost:5173
 
 ---
 
-## API Endpoint
+### API Endpoint
 
 This project uses **[The Movie Database (TMDB) API](https://developer.themoviedb.org/docs)** to fetch movie and TV show data dynamically.
 
