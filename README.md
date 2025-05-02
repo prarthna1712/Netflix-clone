@@ -185,3 +185,15 @@ Here are some screenshots showcasing different parts of the Netflix Clone:
 ### Footer
 
 ![Footer](./public/screenshots/Footer.png)
+
+---
+
+## Contribution
+
+Contributions are welcome! If you'd like to improve the project, add new features, or fix bugs, follow these steps:
+
+1. **Fork** the repository
+2. **Clone** your forked repo:
+   ```bash
+   git clone https://github.com/your-username/netflix-clone.git
+   ```
