@@ -115,8 +115,6 @@ VITE_TMDB_API_KEY=your_tmdb_api_key
 
 ---
 
----
-
 ## 🚀 Running the Application
 
 Once you've installed the dependencies and set up your environment variables, you can start the development server.
