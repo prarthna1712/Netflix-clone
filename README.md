@@ -170,9 +170,9 @@ Here are some screenshots showcasing different parts of the Netflix Clone:
 
 ### 🏠 Home Page
 
-![Home Page](./public/screenshots/home.png)
+![Home Page](./public/screenshots/Home.png)
 
-### 📄 Movie Details (On Hover)
+### 📄 Movie Details
 
 ![Movie Details](./public/screenshots/MovieCards.png)
 
