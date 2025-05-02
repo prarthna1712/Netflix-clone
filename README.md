@@ -76,7 +76,7 @@ You'll also need:
 
 ---
 
-## Installation 🛠
+## Installation
 
 Follow these steps to install and run the project locally:
 
@@ -99,7 +99,7 @@ npm install
 
 ---
 
-## Environment Setup 🌐
+## Environment Setup
 
 To securely connect your app to Firebase and TMDB, create a `.env` file in the project root directory and add the following variables:
 
@@ -112,3 +112,78 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 VITE_FIREBASE_APP_ID=your_firebase_app_id
 VITE_TMDB_API_KEY=your_tmdb_api_key
 ```
+
+---
+
+---
+
+## 🚀 Running the Application
+
+Once you've installed the dependencies and set up your environment variables, you can start the development server.
+
+### Start the Development Server
+
+Run the following command:
+
+```bash
+npm run dev
+```
+
+This will start Vite’s development server. You can view the app in your browser at:
+
+http://localhost:5173
+
+---
+
+## API Endpoint
+
+This project uses **[The Movie Database (TMDB) API](https://developer.themoviedb.org/docs)** to fetch movie and TV show data dynamically.
+
+### 🔹 Base URL
+
+### 🔹 Common Endpoints Used
+
+- `GET /trending/movie/week` – Fetches weekly trending movies
+- `GET /movie/popular` – Fetches popular movies
+- `GET /movie/{movie_id}` – Fetches details for a specific movie
+- `GET /search/movie?query={search_term}` – Searches for a movie based on user input
+
+### 🔹 Example Request
+
+```bash
+https://api.themoviedb.org/3/movie/popular?api_key=YOUR_TMDB_API_KEY
+```
+
+## Features
+
+- **User Authentication**: Secure login and registration using Firebase/Auth.
+- **Browse Content**: Watch trailers, view movie and show categories, and explore Netflix Originals.
+- **Responsive Design**: Fully responsive UI built with Tailwind CSS to work across all devices.
+- **API Integration**: Fetches live movie and show data from the TMDb (The Movie Database) API.
+- **Logout Functionality**: Secure sign-out to end user session.
+
+---
+
+## Screenshots
+
+Here are some screenshots showcasing different parts of the Netflix Clone:
+
+### 🏠 Home Page
+
+![Home Page](./public/screenshots/home.png)
+
+### 📄 Movie Details (On Hover)
+
+![Movie Details](./public/screenshots/MovieCards.png)
+
+### 🔐 Login Page
+
+![Login Page](./public/screenshots/Login.png)
+
+### 📄 Sign Up
+
+![My List](./public/screenshots/Signup.png)
+
+### Footer
+
+![Footer](./public/screenshots/Footer.png)
