@@ -46,3 +46,69 @@ project-root/
 ├── vite.config.js           # Vite configuration
 └── .env                     # Environment variables (excluded from Git)
 ```
+
+---
+
+## 🔧 Prerequisites
+
+Before you begin, ensure the following tools and accounts are set up on your system:
+
+- **[Node.js](https://nodejs.org/)** (v14 or later recommended)
+- **[npm](https://www.npmjs.com/)** (comes bundled with Node.js)
+- **[Git](https://git-scm.com/)** (for cloning the repository)
+
+You'll also need:
+
+- ✅ **Firebase Account**
+
+  - Create a project at [Firebase Console](https://console.firebase.google.com/)
+  - Enable **Email/Password** authentication
+  - Get your Firebase configuration from **Project Settings > General**
+
+- 🎬 **TMDB Account**
+  - Sign up at [The Movie Database (TMDB)](https://www.themoviedb.org/)
+  - Generate a **developer API key** at [TMDB API Settings](https://www.themoviedb.org/settings/api)
+
+### Optional Tools
+
+- **[Visual Studio Code](https://code.visualstudio.com/)** – Recommended editor
+- **[Postman](https://www.postman.com/)** – Useful for testing APIs if extended in future
+
+---
+
+## 🛠 Installation
+
+Follow these steps to install and run the project locally:
+
+### 1. Clone the Repository
+
+Use Git to download the project to your local machine:
+
+```bash
+git clone https://github.com/prarthna1712/Netflix-clone.git
+cd Netflix-clone
+```
+
+### 2. Install Dependencies
+
+Install all necessary packages using npm:
+
+```bash
+npm install
+```
+
+---
+
+## 🌐 Environment Setup
+
+To securely connect your app to Firebase and TMDB, create a `.env` file in the project root directory and add the following variables:
+
+```env
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+VITE_TMDB_API_KEY=your_tmdb_api_key
+```
