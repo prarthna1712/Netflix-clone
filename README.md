@@ -76,7 +76,7 @@ You'll also need:
 
 ---
 
-## 🛠 Installation
+## Installation 🛠
 
 Follow these steps to install and run the project locally:
 
@@ -99,7 +99,7 @@ npm install
 
 ---
 
-## 🌐 Environment Setup
+## Environment Setup 🌐
 
 To securely connect your app to Firebase and TMDB, create a `.env` file in the project root directory and add the following variables:
 
