@@ -18,7 +18,7 @@ This is a Netflix Clone built using **React** and **Vite**, designed to replicat
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
 5. [Environment Setup](#environment-setup)
-6. [Running the Application](#running-the-application)
+6. [Running the Application](#🚀running-the-application)
 7. [Features](#features)
 8. [Screenshots](#screenshots)
 9. [Contributing](#contributing)
